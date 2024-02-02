@@ -1,21 +1,21 @@
 #Need csv library to read/write from the other csv files for HW
 import csv
 
-"Defining a function to read a CSV file"
+# Defining a function that reads a csv
 def read_csv(file_path):
     with open(file_path, 'r') as file:
         reader = csv.reader(file)
         return list(reader)
 
-"Defining a function to write the data from a CSV file"
+# Defining a function that writes a CSV
 def write_csv(file_path, data):
     with open(file_path, 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerows(data)
 
-"Defining a function that finds the slcsp rate"
+#Defining a function that will grab slcsp
 def find_slcsp_rate(plans, zip_code):
-    """Find the second lowest cost plan rate for a given ZIP code and metal level."""
+    "slcsp function"
 
 
 # Read the input files
