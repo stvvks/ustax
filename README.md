@@ -16,6 +16,8 @@ npm i process
 
 npm install -g ts-node typescript '@types/node'
 
+You will need to create a 'tsconfig.json' file, go into it, and click CMD+Enter for the correct additions.
+
 Now to run script, use ts-node 'filename'.ts
 
 
