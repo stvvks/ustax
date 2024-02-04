@@ -13,7 +13,7 @@ def write_csv(file_path, data):
         writer = csv.writer(file)
         writer.writerows(data)
 
-#Defining a function that will grab slcsp
+#Defining a function that will grab slcsp --INCOMPLETE, needed to add more functions
 def find_slcsp_rate(plans, zip_code):
     "slcsp function"
 
