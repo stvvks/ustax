@@ -27,9 +27,9 @@ def get_rate(zipcode):
     rate_area = list(rate_areas)[0]
     if rate_area not in solvable_rate_areas:
         return ''
-# creating a list variable from a function/variable 
+# creating a list variable from a function/variable
     silver_plans_for_rate_area = get_silver_plans_by_rate_area(rate_area)
-# creating a set varaible from silver plans
+# creating a set variable from silver plans named "rates"
     rates = set(map(lambda plan: plan['rate'], silver_plans_for_rate_area))
 # If there is more than 1 silver rate plan, then get the 2nd lowest from using the get_slcsp function. if not, return blank
     if len(rates) > 1:
