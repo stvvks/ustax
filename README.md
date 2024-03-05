@@ -8,15 +8,10 @@ brew update && brew upgrade
 brew install node
 
 After installed, run
-
-npm install -g grunt-cli 
-
+npm install -g grunt-cli
 npm i csv-parser
-
-npm i fs  #this may cause problems#
-
+npm i fs #this may cause problems
 npm i fs-extra
-
 npm i process
 
 npm install -g ts-node typescript '@types/node'
